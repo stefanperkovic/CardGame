@@ -1,11 +1,15 @@
-/** Deck.Java
- * Stefan Perkovic December 7 2022
+/** Card.Java
+ * Stefan Perkovic December 8 2022
+ * Creates a Card with its given attributes of rank and suit as well as its point value in Blackjack
  */
 public class Card {
     private String rank;
     private int point;
     private String suit;
 
+    /**
+     * Constructor initializes the card with the given attributes of rank, point, and suit
+     */
     public Card(String rank, int point, String suit) {
         this.rank = rank;
         this.point = point;
@@ -36,6 +40,9 @@ public class Card {
         this.suit = suit;
     }
 
+    /**
+     * Returns a string with the description of the card in terms of its rank and suit
+     */
     public String toString() {
         return rank + " + of " + suit;
     }
