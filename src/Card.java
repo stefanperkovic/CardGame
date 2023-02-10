@@ -2,18 +2,23 @@
  * Stefan Perkovic December 8 2022
  * Creates a Card with its given attributes of rank and suit as well as its point value in Blackjack
  */
+import java.awt.*;
 public class Card {
+    private BlackJackViewer window;
     private String rank;
     private int point;
     private String suit;
+    private Image card;
 
     /**
-     * Constructor initializes the card with the given attributes of rank, point, and suit
+     * Initializes the card with attributes of rank, point, and suit
      */
-    public Card(String rank, int point, String suit) {
+    public Card(String rank, int point, String suit, Image card, BlackJackViewer window) {
+        this.window = window;
         this.rank = rank;
         this.point = point;
         this.suit = suit;
+        this.card = card;
     }
 
     public String getRank() {
@@ -40,8 +45,22 @@ public class Card {
         this.suit = suit;
     }
 
+    public Image getCard() {
+        return card;
+    }
+
+    public void setCard(Image card) {
+        this.card = card;
+    }
+
+    public void draw(Graphics g, int x, int y){
+        g.drawImage(card, x + 400 , y, 125, 200, window);
+    }
+
+
+
     /**
-     * Returns a string with the description of the card in terms of its rank and suit
+     * Returns a string with the cards rank and suit
      */
     public String toString() {
         return rank + " + of " + suit;

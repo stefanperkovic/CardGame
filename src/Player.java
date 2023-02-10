@@ -10,7 +10,7 @@ public class Player {
     private String name;
 
     /**
-     *Constructor takes the name of the player and sets their points to 0
+     * @param name of player
      */
     public Player(String name) {
         this.name = name;
@@ -18,8 +18,8 @@ public class Player {
     }
 
     /**
-     * Constructor take a hand which is an ArrayList of Card as well as takes the name
-     * Sets the points to 0
+     * @param hand dealt to player
+     * @param name of player
      */
     public Player(ArrayList<Card> hand, String name) {
         this.hand = hand;
