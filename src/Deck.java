@@ -13,7 +13,7 @@ public class Deck {
     private BlackJackViewer window;
 
     /**
-     * Takes in the ranks, suits, and points to make 52 cards for the deck
+     * Takes in the ranks, suits, and points to make 52 cards for the deck and give itself an image
      */
     public Deck(String[] ranks, int[] point, String[] suits, BlackJackViewer window) {
         cards = new ArrayList<>();

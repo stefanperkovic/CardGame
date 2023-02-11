@@ -9,6 +9,8 @@ public class Card {
     private int point;
     private String suit;
     private Image card;
+    public static final int cardWidth = 125;
+    public static final int cardHeight = 200;
 
     /**
      * Initializes the card with attributes of rank, point, and suit
@@ -54,7 +56,7 @@ public class Card {
     }
 
     public void draw(Graphics g, int x, int y){
-        g.drawImage(card, x + 400 , y, 125, 200, window);
+        g.drawImage(card, x + 400 , y, cardWidth, cardHeight, window);
     }
 
 

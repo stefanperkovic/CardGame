@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8115a0c3-b9ed-433e-996b-4e0e27487f27" name="Changes" comment="Working on finishing the game class and the playGame method.">
-      <change afterPath="$PROJECT_DIR$/Resources/background.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BlackJackViewer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Card Game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Card Game.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BlackJackViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlackJackViewer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671080147642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Working on finishing the game class and the playGame method.">
+      <created>1676050955766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676050955766</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,5 +102,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working on finishing the game class and the playGame method." />
     <option name="LAST_COMMIT_MESSAGE" value="Working on finishing the game class and the playGame method." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BlackJackViewer.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
